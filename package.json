@@ -1,0 +1,30 @@
+{
+  "name": "osx-temperature-sensor",
+  "version": "1.0.0",
+  "description": "OSX temperature sensor",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastian Hildebrandt <hildebrandt@plus-innovations.com> (https://plus-innovations.com)",
+  "homepage": "https://github.com/sebhildebrandt/osx-temperature-sensor",
+  "keywords": [
+    "system information",
+    "sysinfo",
+    "osx",
+    "cpu",
+    "temperature",
+    "sensor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebhildebrandt/osx-temperature-sensor.git"
+  },
+  "os": [
+    "darwin"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
