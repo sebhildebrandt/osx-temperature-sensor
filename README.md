@@ -20,22 +20,14 @@ $ npm install osx-temperature-sensor --save
 
 ### Usage
 
-This library is implemented as asynchronous functions. Here a small example how to use them:
+Here a small example how to use this library:
 
 ```
-var osxtemp = require('osx-temperature-sensor');
+var osxTemp = require('osx-temperature-sensor');
 
-// callback style
-osxtemp.cpu(function(data) {
-	console.log('CPU-Information:');
-	console.log(data);
-})
-
-// promises style - new in version 3
-osxtemp.cpu()
-	.then(data => console.log(data))
-	.catch(error => console.error(error));
-
+let temperature = osxTemp.cpuTemperature();
+console.log('CPU-Information:');
+console.log(temperature);
 ```
 
 ## News and Changes
@@ -55,8 +47,8 @@ This library is used by one of my other libraries [systeminformation][systeminfo
 
 | Function        | Comments |
 | --------------- | -------- |
-| si.version() | library version (no callback/promise) |
-| si.cpuTemperature(cb) | CPU temperature (if sensors is installed) |
+| osxTemp.version() | library version (no callback/promise) |
+| osxTemp.cpuTemperature(cb) | CPU temperature (if sensors is installed) |
 | - main | main temperature |
 | - cores | array of temperatures |
 | - max | max temperature |
