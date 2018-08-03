@@ -34,6 +34,8 @@ console.log(temperature);
 
 ### Latest Activity
 
+- Version 1.0.3: updated issue template
+- Version 1.0.2: updated documentation
 - Version 1.0.1: updated documentation
 - Version 1.0.0: initial release
 
