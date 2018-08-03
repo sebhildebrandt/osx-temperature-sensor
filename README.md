@@ -10,7 +10,7 @@ OSX Temperature Sensor library for [node.js][nodejs-url]
 
 ## Quick Start
 
-This small library captures CPU temperature on OSX using [SMC][smc-code-url]
+This small library captures CPU temperature on OSX using [SMC][smc-code-url] - all values are in degree Celsius
 
 ### Installation
 
@@ -22,8 +22,8 @@ $ npm install osx-temperature-sensor --save
 
 Here a small example how to use this library:
 
-```
-var osxTemp = require('osx-temperature-sensor');
+```js
+const osxTemp = require('osx-temperature-sensor');
 
 let temperature = osxTemp.cpuTemperature();
 console.log('CPU-Information:');
@@ -34,6 +34,7 @@ console.log(temperature);
 
 ### Latest Activity
 
+- Version 1.0.1: updated documentation
 - Version 1.0.0: initial release
 
 If you have comments, suggestions & reports, please feel free to contact me!
@@ -48,7 +49,7 @@ This library is used by one of my other libraries [systeminformation][systeminfo
 | Function        | Comments |
 | --------------- | -------- |
 | osxTemp.version() | library version (no callback/promise) |
-| osxTemp.cpuTemperature(cb) | CPU temperature (if sensors is installed) |
+| osxTemp.cpuTemperature(cb) | CPU temperature (if sensors is installed) in Celsius |
 | - main | main temperature |
 | - cores | array of temperatures |
 | - max | max temperature |
