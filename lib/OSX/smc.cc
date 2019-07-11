@@ -185,6 +185,7 @@ double SMCGet(UInt32Char_t key) {
 
 void Get(const FunctionCallbackInfo<Value>& args) {
     Isolate* isolate = Isolate::GetCurrent();
+    Local<Context> context = isolate->GetCurrentContext();
     HandleScope scope(isolate);
     SMCOpen();
     if (args.Length() < 1) {
@@ -193,17 +194,19 @@ void Get(const FunctionCallbackInfo<Value>& args) {
     }
     if (!args[0]->IsString()) {
         isolate->ThrowException(Exception::TypeError(
-        String::NewFromUtf8(isolate, "Expected string")));
+        String::NewFromUtf8(isolate, "Expected string", NewStringType::kNormal)
+        .ToLocalChecked()));
         return;
     }
-    v8::String::Utf8Value k(args[0]->ToString());
+    v8::String::Utf8Value k(
+        isolate, args[0]->ToString(context).ToLocalChecked());
     char *key = *k;
     double value = SMCGet(key);
     SMCClose();
     args.GetReturnValue().Set(Number::New(isolate, value));
 }
 
-void Init(v8::Handle<Object> exports) {
+void Init(v8::Local<Object> exports) {
     NODE_SET_METHOD(exports, "get", Get);
 }
 
