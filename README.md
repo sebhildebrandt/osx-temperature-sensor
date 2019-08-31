@@ -34,6 +34,7 @@ console.log(temperature);
 
 ### Latest Activity
 
+- Version 1.0.4: Add compatibility for Node 12 and fix deprecation warnings
 - Version 1.0.3: updated issue template
 - Version 1.0.2: updated documentation
 - Version 1.0.1: updated documentation
@@ -80,9 +81,10 @@ Written by Sebastian Hildebrandt [sebhildebrandt](https://github.com/sebhildebra
 #### Contributers
 
 OSX Temperature: Credits here are going to:
- 
+
 - Massimiliano Marcon [mmarcon](https://github.com/mmarcon) - for his work on [smc-code][smc-code-url]
 - Sébastien Lavoie [lavoiesl](https://github.com/lavoiesl) for his work on [osx-cpu-temp][osx-cpu-temp-url] code.
+- Yuxin (Ryan) Wang [yxwangcs](https://github.com/yxwangcs) added compatibility for Node 12 and fix deprecation warnings.
 
 ## Copyright Information
 
