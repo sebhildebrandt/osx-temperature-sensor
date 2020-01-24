@@ -1,6 +1,6 @@
 {
   "name": "osx-temperature-sensor",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "OSX temperature sensor",
   "license": "MIT",
   "main": "./lib/index.js",
