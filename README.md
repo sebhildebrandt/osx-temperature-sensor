@@ -6,7 +6,7 @@ OSX Temperature Sensor library for [node.js][nodejs-url]
   [![NPM Downloads][downloads-image]][downloads-url]
   [![Git Issues][issues-img]][issues-url]
   [![deps status][daviddm-img]][daviddm-url]
-  [![MIT license][license-img]][license-url]
+  [![GPL license][license-img]][license-url]
 
 ## Quick Start
 
@@ -34,6 +34,7 @@ console.log(temperature);
 
 ### Latest Activity
 
+- Version 1.0.5: changed license to GPL
 - Version 1.0.4: Add compatibility for Node 12 and fix deprecation warnings
 - Version 1.0.3: updated issue template
 - Version 1.0.2: updated documentation
@@ -93,27 +94,26 @@ All other trademarks are the property of their respective owners.
 
 ## License [![MIT license][license-img]][license-url]
 
->The [`MIT`][license-url] License (MIT)
+>The [`GPL`][license-url] License (GPL)
 >
 >Copyright &copy; 2017 Sebastian Hildebrandt, [+innovations](http://www.plus-innovations.com).
 >
->Permission is hereby granted, free of charge, to any person obtaining a copy
->of this software and associated documentation files (the "Software"), to deal
->in the Software without restriction, including without limitation the rights
->to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
->copies of the Software, and to permit persons to whom the Software is
->furnished to do so, subject to the following conditions:
+>for Apple System Management Control (SMC) Tool
+>Copyright &copy; 2006 devnull
 >
->The above copyright notice and this permission notice shall be included in
->all copies or substantial portions of the Software.
+
+>This program is free software: you can redistribute it and/or modify
+>it under the terms of the GNU General Public License as published by
+>the Free Software Foundation, either version 3 of the License, or
+>(at your option) any later version.
 >
->THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
->IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
->FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
->AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
->LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
->OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
->THE SOFTWARE.
+>This program is distributed in the hope that it will be useful,
+>but WITHOUT ANY WARRANTY; without even the implied warranty of
+>MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+>GNU General Public License for more details.
+>
+>You should have received a copy of the GNU General Public License
+>along with this program.  If not, see <http://www.gnu.org/licenses/>.
 >
 >Further details see [LICENSE](LICENSE) file.
 
@@ -124,7 +124,7 @@ All other trademarks are the property of their respective owners.
 [downloads-url]: https://npmjs.org/package/osx-temperature-sensor
 
 [license-url]: https://github.com/sebhildebrandt/osx-temperature-sensor/blob/master/LICENSE
-[license-img]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
+[license-img]: https://img.shields.io/badge/license-GPL-blue.svg?style=flat-square
 [npmjs-license]: https://img.shields.io/npm/l/osx-temperature-sensor.svg?style=flat-square
 [changelog-url]: https://github.com/sebhildebrandt/osx-temperature-sensor/blob/master/CHANGELOG.md
 
