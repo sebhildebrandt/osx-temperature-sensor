@@ -1,6 +1,6 @@
 {
   "name": "osx-temperature-sensor",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "OSX temperature sensor",
   "license": "MIT",
   "main": "./lib/index.js",
@@ -26,5 +26,8 @@
   ],
   "engines": {
     "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "node-gyp": "^6.1.0"
   }
 }
