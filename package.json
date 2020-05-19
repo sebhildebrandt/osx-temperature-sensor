@@ -26,8 +26,5 @@
   ],
   "engines": {
     "node": ">=4.0.0"
-  },
-  "dependencies": {
-    "node-gyp": "^6.1.0"
   }
 }
