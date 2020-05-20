@@ -10,7 +10,7 @@ OSX Temperature Sensor library for [node.js][nodejs-url]
 
 ## Quick Start
 
-This small library captures CPU temperature on OSX using [SMC][smc-code-url] - all values are in degree Celsius
+This small library captures CPU temperature on macOS using [SMC][smc-code-url] - all values are in degree Celsius
 
 ### Installation
 
@@ -34,7 +34,7 @@ console.log(temperature);
 
 ### Latest Activity
 
-- Version 1.0.6: reverted license to MIT
+- Version 1.0.6: reverted license to MIT (thanks to Frank Stock)
 - Version 1.0.5: changed license to GPL
 - Version 1.0.4: Add compatibility for Node 12 and fix deprecation warnings
 - Version 1.0.3: updated issue template
@@ -59,7 +59,7 @@ This library is used by one of my other libraries [systeminformation][systeminfo
 | - cores | array of temperatures |
 | - max | max temperature |
 
-This library is supposed to only work on OSX
+This library is supposed to only work on macOS
 
 ## Known Issues
 
@@ -84,39 +84,37 @@ Written by Sebastian Hildebrandt [sebhildebrandt](https://github.com/sebhildebra
 
 OSX Temperature: Credits here are going to:
 
-- Massimiliano Marcon [mmarcon](https://github.com/mmarcon) - for his work on [smc-code][smc-code-url]
-- Sébastien Lavoie [lavoiesl](https://github.com/lavoiesl) for his work on [osx-cpu-temp][osx-cpu-temp-url] code.
-- Yuxin (Ryan) Wang [yxwangcs](https://github.com/yxwangcs) added compatibility for Node 12 and fix deprecation warnings.
+- Frank Stock [pcafstockf](https://github.com/pcafstockf) - for his work on [smc-code][smc-code-url]
 
 ## Copyright Information
 
-OS X is a registered trademark of Apple Inc., Node.js is a trademark of Joyent Inc.,
+OS X aand macOS are registered trademarks of Apple Inc., Node.js is a trademark of Joyent Inc.,
 All other trademarks are the property of their respective owners.
 
 ## License [![MIT license][license-img]][license-url]
 
 >The [`MIT`][license-url] License (MIT)
 >
->Copyright &copy; 2017 Sebastian Hildebrandt, [+innovations](http://www.plus-innovations.com).
+>Copyright &copy; 2020 Sebastian Hildebrandt, [+innovations](http://www.plus-innovations.com).
 >
 >Permission is hereby granted, free of charge, to any person obtaining a copy
 >of this software and associated documentation files (the "Software"), to deal
->in the Software without restriction, including without limitation the rights		
->to use, copy, modify, merge, publish, distribute, sublicense, and/or sell		
->copies of the Software, and to permit persons to whom the Software is		
->furnished to do so, subject to the following conditions:		
->  
->The above copyright notice and this permission notice shall be included in		
+>in the Software without restriction, including without limitation the rights
+>to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+>copies of the Software, and to permit persons to whom the Software is
+>furnished to do so, subject to the following conditions:
+>
+>The above copyright notice and this permission notice shall be included in
 >all copies or substantial portions of the Software.
 >
 >THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 >IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
->FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE		
->AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER		
->LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,		
->OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN		
+>FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+>AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+>LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+>OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 >THE SOFTWARE.
- 
+
 >Further details see [LICENSE](LICENSE) file.
 
 
@@ -143,4 +141,3 @@ All other trademarks are the property of their respective owners.
 [systeminformation-github-url]: https://github.com/sebhildebrandt/systeminformation
 
 [smc-code-url]: https://github.com/pcafstockf/osx-temperature-sensor
-[osx-cpu-temp-url]: https://github.com/lavoiesl/osx-cpu-temp
