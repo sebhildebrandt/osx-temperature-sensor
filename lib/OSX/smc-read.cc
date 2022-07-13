@@ -208,6 +208,10 @@ double ToSMCNumber(uint32_t dataType, const SMCBytes_t buf, uint8_t bufLen) {
 			if (bufLen != 4)
 				return NAN;
 			return ntohl(*((uint32_t*) buf));
+    case DATATYPE_FLT_KEY:
+      if (bufLen != 4)
+				return NAN;
+      return *((float*) buf);
 		default:
 			return ToSMCFloat(dataType, ntohs(*((uint16_t*) buf)));
 	}

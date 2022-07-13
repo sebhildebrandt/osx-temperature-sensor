@@ -47,6 +47,8 @@ extern "C" {
 #define DATATYPE_FLAG_KEY 0x666C6167    // "flag"
 #define DATATYPE_HEX_KEY 0x6865785F     // "hex_"
 
+#define DATATYPE_FLT_KEY 0x666C7420     // "flt"
+
 uint32_t stringToKey(const char* str);
 
 void keyToString(uint32_t key, char* str);
