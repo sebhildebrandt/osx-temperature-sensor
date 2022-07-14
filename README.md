@@ -5,7 +5,6 @@ OSX Temperature Sensor library for [node.js][nodejs-url]
   [![NPM Version][npm-image]][npm-url]
   [![NPM Downloads][downloads-image]][downloads-url]
   [![Git Issues][issues-img]][issues-url]
-  [![deps status][daviddm-img]][daviddm-url]
   [![Code Quality: Javascript][lgtm-badge]][lgtm-badge-url]
   [![Total alerts][lgtm-alerts]][lgtm-alerts-url]
 [![MIT license][license-img]][license-url]
@@ -36,7 +35,7 @@ console.log(temperature);
 
 ### Latest Activity
 
-- Version 1.0.8: add Apple Silicom M1 support
+- Version 1.0.8: add Apple Silicon M1 support
 - Version 1.0.7: updated documentation
 - Version 1.0.6: reverted license to MIT (thanks to Frank Stock)
 - Version 1.0.5: changed license to GPL
@@ -89,6 +88,7 @@ Written by Sebastian Hildebrandt [sebhildebrandt](https://github.com/sebhildebra
 OSX Temperature: Credits here are going to:
 
 - Frank Stock [pcafstockf](https://github.com/pcafstockf) - for his work on [smc-code][smc-code-url]
+- Anton Solomonov [Wendor](https://github.com/Wendor) - Apple Silicon support
 
 ## Copyright Information
 
@@ -99,7 +99,7 @@ All other trademarks are the property of their respective owners.
 
 >The [`MIT`][license-url] License (MIT)
 >
->Copyright &copy; 2020 Sebastian Hildebrandt, [+innovations](http://www.plus-innovations.com).
+>Copyright &copy; 2022 Sebastian Hildebrandt, [+innovations](http://www.plus-innovations.com).
 >
 >Permission is hereby granted, free of charge, to any person obtaining a copy
 >of this software and associated documentation files (the "Software"), to deal
@@ -139,9 +139,6 @@ All other trademarks are the property of their respective owners.
 [lgtm-badge-url]: https://lgtm.com/projects/g/sebhildebrandt/osx-temperature-sensor/context:javascript
 [lgtm-alerts]: https://img.shields.io/lgtm/alerts/g/sebhildebrandt/osx-temperature-sensor.svg?style=flat-square
 [lgtm-alerts-url]: https://lgtm.com/projects/g/sebhildebrandt/osx-temperature-sensor/alerts
-
-[daviddm-img]: https://img.shields.io/david/sebhildebrandt/osx-temperature-sensor.svg?style=flat-square
-[daviddm-url]: https://david-dm.org/sebhildebrandt/osx-temperature-sensor
 
 [issues-img]: https://img.shields.io/github/issues/sebhildebrandt/osx-temperature-sensor.svg?style=flat-square
 [issues-url]: https://github.com/sebhildebrandt/osx-temperature-sensor/issues
