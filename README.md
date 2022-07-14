@@ -36,6 +36,7 @@ console.log(temperature);
 
 ### Latest Activity
 
+- Version 1.0.8: add Apple Silicom M1 support
 - Version 1.0.7: updated documentation
 - Version 1.0.6: reverted license to MIT (thanks to Frank Stock)
 - Version 1.0.5: changed license to GPL
